@@ -39,7 +39,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sequi dignissimos eligendi laborum. Aperiam blanditiis suscipit debitis nihil aspernatur vel, aut animi voluptatem dicta, inventore, eligendi ratione magni ducimus aliquam?
+            I am a respectful self-motivator gifted with finding reliable solutions for software issues.
+            Experienced in Front-end and Back-end and offering skills in Javascript and Python. Fluent in
+            English and Thai and accustomed to working with cross-cultural.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
