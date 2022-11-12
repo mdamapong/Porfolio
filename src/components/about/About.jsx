@@ -21,7 +21,7 @@ const About = () => {
 
         <div className='about__content'>
           <div className='about__cards'>
-            <article className='about__card'>
+            {/* <article className='about__card'>
               <CgWebsite className='about__icon' />
               <h5>Front-end</h5>
               <small><SiJavascript /> <SiReact /> <SiNextdotjs /> <SiGatsby /> <SiCsswizardry /> <SiJquery /> <SiHtml5 /> </small>
@@ -35,13 +35,11 @@ const About = () => {
               <TbAward className='about__icon' />
               <h5>Projects</h5>
               <small>5 Completed</small>
-            </article>
+            </article> */}
           </div>
 
           <p>
-            I am a respectful self-motivator gifted with finding reliable solutions for software issues.
-            Experienced in Front-end and Back-end and offering skills in Javascript and Python. Fluent in
-            English and Thai and accustomed to working with cross-cultural.
+            My original education background is in Anthropology but now I have been pursuing a software engineering career since August of 2020 by self learning with online resources such as App Academy Prep course and Youtube. During that time I learn a lot but not at the rate that I’m satisfied. I decided to make a big leap and attend a well known bootcamp. Bootcamp gave me structure and taught me a lot of skills but the most important lesson is problem solving. After I graduated, I'm thrilled to be starting my software engineer job search now. Although I'm new to it, I'm dedicated to this subject, a quick learner, and passionate about it. Although I still have a lot to learn, any of my prior managers would attest to the fact that I am devoted and would contribute significantly to any team I join.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
