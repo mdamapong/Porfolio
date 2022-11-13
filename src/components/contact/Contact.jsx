@@ -2,7 +2,21 @@ import React from 'react';
 import './contact.css';
 import { HiOutlineMail, } from 'react-icons/hi';
 import { AiOutlineLinkedin, AiOutlineWhatsApp } from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
+
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_rtaqpa6', 'service_rtaqpa6', form.current, 'gKOD6A1kkWb6-1e4D')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -28,7 +42,9 @@ const Contact = () => {
             <a href="http://api.whatsapp.com/send?phone+18319154372">Send a message</a>
           </article>
         </div>
-        <form action="">
+
+
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your email' required />
           <textarea name="message" rows="7" required>Your Message</textarea>
