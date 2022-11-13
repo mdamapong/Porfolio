@@ -1,10 +1,10 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
-import { TbAward } from 'react-icons/tb'
-import { SiJavascript, SiReact, SiCsswizardry, SiJquery, SiPython, SiHtml5, SiNextdotjs, SiGatsby } from 'react-icons/si'
-import { CgWebsite } from 'react-icons/cg'
-import { AiOutlineCloudServer } from 'react-icons/ai'
+// import ME from '../../assets/me-about.png'
+// import { TbAward } from 'react-icons/tb'
+// import { SiJavascript, SiReact, SiCsswizardry, SiJquery, SiPython, SiHtml5, SiNextdotjs, SiGatsby } from 'react-icons/si'
+// import { CgWebsite } from 'react-icons/cg'
+// import { AiOutlineCloudServer } from 'react-icons/ai'
 
 const About = () => {
   return (
