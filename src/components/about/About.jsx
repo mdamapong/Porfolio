@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// import ME from '../../assets/me-about.png'
+import ME from '../../assets/me-about.jpg'
 // import { TbAward } from 'react-icons/tb'
 // import { SiJavascript, SiReact, SiCsswizardry, SiJquery, SiPython, SiHtml5, SiNextdotjs, SiGatsby } from 'react-icons/si'
 // import { CgWebsite } from 'react-icons/cg'
@@ -14,9 +14,9 @@ const About = () => {
 
       <div className='container about__container'>
         <div className='about__me'>
-          {/* <div className='about__me-image'>
+          <div className='about__me-image'>
             <img src={ME} alt="About Image" />
-          </div> */}
+          </div>
         </div>
 
         <div className='about__content'>
@@ -39,7 +39,8 @@ const About = () => {
           </div>
 
           <p>
-            My original education background is in Anthropology. Now I have been pursuing a software engineering career for the past two years by self learning with online resources such as an App Academy Prep course and Harvard CS50. I dedicated over 400 hours attending Fullstacks software engineering course at General Assembly, San Francisco. I've gained a lot of knowledge throughout Bootcamp, but problem solving is the most crucial lesson I've learned. Since I’ve received my certificate, I’ve been eager to find a job in web development. I have a strong commitment to this subject and am a rapid learner. Furthermore,the education in Cultural Anthropology has helped to build strong interpersonal relationships in a group working environment. any of my prior managers would attest to the fact that I am devoted and would contribute significantly to any team I join.
+            I have been pursuing a software engineering career for the past two years by self learning with online resources such as an App Academy Prep course and Harvard CS50. I dedicated over 400 hours attending Fullstacks software engineering course at General Assembly, San Francisco. I've gained a lot of knowledge throughout Bootcamp, but problem solving is the most crucial lesson I've learned. Since I’ve received my certificate, I’ve been eager to find a job in web development. I have a strong commitment to this subject and am a rapid learner. Furthermore, I’m on track to complete an Associate Degree for transfer Computer Science with City College of San Francisco. My original education background is in Anthropology. The education in Cultural Anthropology has helped to build strong interpersonal relationships in a group working environment. any of my prior managers would attest to the fact that I am devoted and would contribute significantly to any team I join.
+
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
